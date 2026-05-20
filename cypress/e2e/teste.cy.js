@@ -37,7 +37,9 @@ describe('Login', () => {
     cy.get('#btnLogin').click()
 
     // validar o resultado
-    cy.get('#swal2-title').should('have.text', 'Login realizado')
+    cy.get('.invalid_input').should('have.text', 'Senha inválida.')
+                            .should('be.visible')
+
   
 
   })
