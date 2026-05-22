@@ -41,6 +41,27 @@ describe('Login', () => {
                             .should('be.visible')
 
   
+  })
+  it('Login com email invalido', () => {
+    // implementar depois
+
+   // visitar a pagina
+    cy.visit('https://automationpratice.com.br/login')
+
+    // preencher o formulario com usuario
+    cy.get('#user').type('hahahahahahahahahah')
+
+    // preencher o formulario com senha
+    cy.get('#password').type('12345678')
+
+    //clicar no botao de login
+    cy.get('#btnLogin').click()
+
+    // validar o resultado
+    cy.get('.invalid_input').should('have.text', 'E-mail inválido.')
+                            .should('be.visible')
+
+  
 
   })
 })
