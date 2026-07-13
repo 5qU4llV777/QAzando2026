@@ -7,6 +7,10 @@ Suíte de testes end-to-end em Cypress para a aplicação [Blog Pessoal](https:/
 - **Front-end:** https://react-blogpessoal-three.vercel.app/
 - **API:** https://blogpessoa-n2dk.onrender.com
 
+## 🎥 Vídeo de referência
+
+[![Assista ao vídeo](https://img.youtube.com/vi/wYJfPFMq4Z0/0.jpg)](https://www.youtube.com/watch?v=wYJfPFMq4Z0)
+
 ## 📁 Estrutura do projeto
 
 ```
